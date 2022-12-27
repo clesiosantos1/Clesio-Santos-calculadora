@@ -11,14 +11,14 @@
 
 <body>
     
-    
-    
     <div class="fundo">
-
         <div class="calculadora">
+            Jupiter
+            <!--p id="resultado" value="0
+            
+            "></p-->
+            <input type="text" name="resultado" id="resultado" placeholder="0" onkeypress="enter()">
 
-            <p id="resultado" value="0
-            "></p>
             <table>
                 <tr>
                     <td><Button class="botao" onclick="insert('7')">7</Button></td>
@@ -42,7 +42,7 @@
                 <tr>
                     <td><Button class="botao" onclick="insert('0')">0</Button></td>
                     <td><Button class="botao" onclick="insert('.')">.</Button></td>
-                    <td><Button class="botao" onclick="calcular()">=</Button></td>
+                    <td><Button class="botao" id="calc" onclick="calcular()">=</Button></td>
                     <td><Button class="botao" onclick="insert('+')">+</Button></td>
                 </tr>
                 <tr>
