@@ -8,66 +8,62 @@
     src: url('../dafont/DS-DIGIB.TTF');
 }
 
-body{
-    display: flex;
-}
-.fundo{
 
+.fundo{
     min-width: 100%;
     min-height: 100vh;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    
-
 }
+
 
 .calculadora{
     position: absolute;
     background-color: rgb(74, 93, 103);
-  text-align: center;
+    text-align: center;
     left: 50%;
     transform: translate(-50%, 50%);
     border-radius: 15px;
     padding: 15px;
-    margin-top: -10em;
-    
+    margin-top: -10em; 
 }
+
 
 .botao{
     width: 50px;
     height: 50px;
     font-size: 25px;
     cursor: pointer;
-    margin: 3px;
-    
+    margin: 3px;  
 }
+
 
 h1{
-text-align: center;
+ text-align: center;
 }
 
+
 #resultado{
-    background-color: rgb(221, 238, 200);
-width: 210px;
-min-height: 30px;
-    color: black;
-    margin: 5px;
-    font-size: 25px;
+   background-color: rgb(221, 238, 200);
+   width: 210px;
+   height: 30px;
+   color: black;
+   margin: 5px;
+   font-size: 25px;
    text-align: right;
    padding: 5px;
    border-radius: 5px;
    font-family: dafont;
-overflow-wrap: break-word;
-
-
+   overflow-wrap: break-word;
 }
+
 
 
 .botao:hover{
     background-color: rgb(40, 38, 38);
-    color: white;
-    
+    color: white; 
 }
+
 
 /* .limpar{
     width: 100%;
